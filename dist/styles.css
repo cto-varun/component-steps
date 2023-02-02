@@ -1,0 +1,44 @@
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    font-size: 15px;
+    font-weight: 600;
+    color: #38c315 !important;
+}
+
+.confirmation {
+    text-align: center;
+}
+.confirmation .icon {
+    padding-bottom: 8px;
+    font-size: 32px;
+    color: #52c41a;
+}
+
+.confirmation .failureIcon {
+    padding-bottom: 8px;
+    font-size: 32px;
+    color: #ff4d4f
+}
+
+.confirmation h4.ant-typography {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #092b00;
+}
+.confirmation div.ant-typography {
+    color: #141414;
+}
+.confirmation h3.ant-typography {
+    margin-top: 14px;
+    font-size: 18px;
+}
+
+.step-title {
+    display: flex;
+    align-items: center;
+}
+
+.step-title-text {
+    padding-left: 12px;
+    text-align: left;
+}

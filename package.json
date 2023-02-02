@@ -1,0 +1,32 @@
+{
+    "name": "@ivoyant/component-steps",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "title": "Steps",
+    "description": "",
+    "icon": "icon.png",
+    "scripts": {
+        "start": "ist s",
+        "build": "ist b",
+        "storybook": "ist storybook",
+        "prepublish": "ist b -u"
+    },
+    "files": [
+        "dist",
+        "icon.png"
+    ],
+    "author": "",
+    "license": "",
+    "peerDependencies": {
+        "react": "^18.2.0"
+    },
+    "dependencies": {
+        "squirrelly": "^7.9.2",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "@ivoyant/component-message-bus": "^1.0.0"
+    },
+    "devDependencies": {
+        "@ivoyant/cli": "^1.1.2"
+    }
+}
